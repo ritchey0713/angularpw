@@ -11,4 +11,5 @@ export class AppComponent {
   onButtonClick = () => {
     this.password = 'HELLO WORLD'
   }
+
 }
