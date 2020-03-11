@@ -20,7 +20,6 @@ export class AppComponent {
   }
 
   onButtonClick = () => {
-    console.log("test")
     const numbers = "1234567890"
     const letters = "abcdefghijklmnopqrstuvwxyz"
     const symbols = "!@#$%^&*()"
@@ -44,7 +43,6 @@ export class AppComponent {
       generatedPassword += validchars[index]
     }
     this.password = generatedPassword;
-    console.log(generatedPassword)
   }
 
   onChangeIncludeLetters = () => {
